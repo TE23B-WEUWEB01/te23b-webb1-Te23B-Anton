@@ -1,0 +1,23 @@
+h1 {
+color: crimson;
+font-size: 100px;
+font-family: "New Amsterdam", sans-serif;
+}
+h2 {
+color: darkkhaki;
+font-size: 50px;
+font-family: 'Times New Roman', Times, serif;
+}
+p {
+color: aqua;
+font-size: 20px;
+font-family: "Noto Sans JP", sans-serif; 
+}
+a {
+color: hotpink;
+font-size: 15px;
+}
+body {
+    background-color: black;
+    background-image: url("./bilder/yuliya-matuzava-xplNOuadXBY-unsplash\ \(1\).jpg");
+}
