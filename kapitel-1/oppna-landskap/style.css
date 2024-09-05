@@ -1,0 +1,23 @@
+body {
+    background-image: url("./bilder/image-24.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1 {
+    font-family: "Baskervville SC", serif;
+    margin-left: 100px;
+}
+p{
+    font-family: "SUSE", sans-serif; 
+    background-color: rgba(0, 255, 255, 0.205);
+    width: 500px;
+    padding: 10px;
+    margin-left: 100px;
+border-radius: 10px;
+}
+img{
+margin-left: 100px;
+}
+a{
+
+}
