@@ -1,0 +1,25 @@
+body {
+}
+table {
+    width: 500px;
+    margin: auto;
+}
+caption{
+background-color: crimson;
+padding: 10px;
+background-image: url(./bilder/istockphoto-491606503-612x612.jpg);
+}
+tr{
+
+}
+th{
+padding:10px;
+font-size: 10px;
+}
+td{     
+padding:10px;
+}
+img{
+    width:150px;
+    padding:100px;
+}
