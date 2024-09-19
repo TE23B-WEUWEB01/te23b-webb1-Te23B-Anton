@@ -1,0 +1,21 @@
+Body{
+    background-image: url(./bilder/080ec39c-a605-4f76-9394-89d145d6ca14.avif);
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+    color: ghostwhite;
+    margin-left: 100px;
+}
+h2{
+    color: aliceblue;
+    margin: 100px;
+}
+p{
+    background-color: rgba(255, 255, 255, 0.475);
+    width: 1000px;
+    padding: 10px;
+    margin-left: 100px;
+    border-radius: 10px;
+    
+}
