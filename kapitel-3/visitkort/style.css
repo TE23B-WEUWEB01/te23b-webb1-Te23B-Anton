@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquarda+Bastarda+9&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+background-color: #505050;
+}
+div{
+background-image: url(./bilder/nathan-queloz-b75_hLFriqE-unsplash.jpg);
+background-size: cover;
+width: 500px;
+height: 350px;
+margin-top: 50px;
+margin-left: auto;
+margin-right: auto;
+padding-left: 50px;
+background-repeat: no-repeat;
+border-radius: 30px;
+box-shadow: 10px 10px 20px;
+}
+h1{
+    font-family: "Jacquarda Bastarda 9", serif;
+font-size: 60px;
+color: black;
+}
+h2{
+    font-family: "Jacquarda Bastarda 9", serif;
+    font-size: 50px;
+
+}
+p{
+    font-family: "Roboto", sans-serif;
+font-size: 40px;
+
+}
