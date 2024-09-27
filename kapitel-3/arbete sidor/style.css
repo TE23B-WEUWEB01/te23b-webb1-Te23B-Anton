@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Sanchez:ital@0;1&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body.sida1{
+background-image: url(./bilder/ai-generated-8604390_640.jpg);
+}
+body.sida2{
+background-image: url(./bilder/basket-2023197_640.png);
+}
+body.sida3{
+    background-image: url(./bilder/pattern-3296033_640.png);
+}
+body.sida4{
+    background-image: url(./bilder/pattern-5415668_640.png);
+}
+body.sida5{
+    background-image: url(./bilder/seamless-1315301_640.jpg);
+}
+body.sida6{
+    background-image: url(./bilder/tile-1891107_640.jpg);
+}
+
+div{
+background-color: #ffffff8c;
+width: 500px;
+border: 5px dashed gray;
+margin: auto;
+margin-top: 100px;
+padding: 30px;
+font-family: "Sanchez", serif;
+}
+h1{
+font-size: 25px;
+margin-bottom: 15px;
+}
+p{
+ font-size: 18px;
+}
+a{
+font-size: 40px;
+text-decoration: none;
+font-weight: bold;
+}
