@@ -1,0 +1,56 @@
+html {
+box-sizing: border-box;
+}
+*, *:before, *:after {
+box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+margin: 0;
+padding: 0;
+}
+
+
+body {
+background-image: url(./bilder/as11-40-5878-orig.webp);
+background-size: cover;
+background-attachment: fixed;
+}
+.kontainer{
+ font-family: 'Courier New', Courier, monospace;
+ background: white;
+ margin: auto;
+ width: 800px;
+ padding: 40px;
+}
+.box{
+    background-color: black;
+    padding: 50px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+h1{
+ text-align: center;
+ font-size: 80px;
+ color: black;
+ font-family: 'Courier New', Courier, monospace;
+}
+h2{
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+h3{
+    color: white;
+}
+p{
+color: white;
+
+}
+img{
+width: 200px;
+height: 200px;
+border-radius: 50%;
+border: 5px solid white;
+}
