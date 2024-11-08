@@ -26,6 +26,18 @@ background-color: blueviolet;
 .box{
 background-color: #5a5a5a;
 color: white;
+display: flex;
+padding: 20px;
+margin-bottom: 30px;
+gap: 20px;
+}
+.kolumner{
+    display: flex;
+    gap: 20px;
+}
+.klum{
+    display: flex;
+    gap: 20px;
 }
 
 /* rubrikerna */
@@ -34,6 +46,7 @@ h1{
     font-family: "Hubot Sans", sans-serif;
     font-size: 60px;
     text-transform: uppercase;
+    margin-bottom: 20px;
 }
 h2{
 
