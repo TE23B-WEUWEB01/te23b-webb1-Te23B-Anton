@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubot+Sans:ital,wght@0,200..900;1,200..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    align-items: center;
+
+}
+
+.kontainer {
+    margin: 20px auto;
+    width: 800px;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.spel {
+    background-color: white;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+    text-align: center;
+    height: 550px;
+    font-family: "Playfair Display", serif;
+}
+
+.rad {
+    display: flex;
+    gap: 20px;
+}
+
+h1 {
+    color: white;
+    font-family: "Hubot Sans", serif;
+}
+
+h2 {}
+
+img {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+}
+
+p {}
