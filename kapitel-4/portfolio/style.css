@@ -80,3 +80,18 @@ li{
 
 }
 p {}
+.knapp{
+    text-align: center;
+    margin-bottom: 50px;
+}
+a{
+ text-decoration: none;
+ color: white;
+ font-size: 100px;
+}
+
+@media (max-width : 500px){
+    .kontainer{
+        
+    }
+}
