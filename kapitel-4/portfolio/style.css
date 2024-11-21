@@ -89,6 +89,9 @@ a{
  color: white;
  font-size: 100px;
 }
+a:hover{
+    color: black;
+}
 
 @media (max-width : 500px){
     .kontainer{
