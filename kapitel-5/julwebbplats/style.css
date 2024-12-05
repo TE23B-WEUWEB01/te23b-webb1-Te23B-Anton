@@ -17,6 +17,48 @@ padding: 0;
 --aureolin: #EFEF0Cff;
 
 }
+.kalender {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+    background-image: url(./nedladdning\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+
+.kalender .lucka {
+    background-color: var(--aureolin);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5em;
+    transition: transform 0.3s, background-color 0.3s;
+    cursor: pointer;
+}
+
+.kalender .lucka:hover {
+    background-color: var(--fire-engine-red);
+    transform: scale(1.1);
+}
+.julklappar{
+text-align: center;
+background-image: url(./nedladdning\ \(1\).jpg);
+background-repeat: no-repeat;
+background-size:cover;
+width: auto;
+background-position: center;
+padding-bottom: 20px;
+}
+.text{
+text-align: center;
+background-image: url(./nedladdning\ \(1\).jpg);
+background-repeat: no-repeat;
+background-size:cover;
+width: auto;
+padding-bottom: 20px;
+}
 .topbar{
 background-color: var(--pigment-green);
 width: auto;
@@ -25,9 +67,14 @@ padding: 20px;
 }
 h1{
 text-align: center;
+color: var(--fire-engine-red);
+}
+h2{
+
 }
 a{
 text-decoration: none;
+color: var(--fire-engine-red);
 }
 ul{
 display: flex;
