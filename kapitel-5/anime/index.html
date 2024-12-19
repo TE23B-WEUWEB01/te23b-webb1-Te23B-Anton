@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>anime</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Välkommen till mina css anime</h1>
+    
+    <div class="ruta"></div>
+    <p class="emoji">😂</p>
+    <p class="emoji">😂</p>
+    <p class="emoji">😂</p>
+
+    <audio controls autoplay loop hidden id="myAudio">
+        <source src="./FUNNY LAUGH SOUND EFFECT.mp3" type="audio/mpeg">
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            var audio = document.getElementById('myAudio');
+            audio.playbackRate = 0.5;
+        });
+    </script>
+</body>
+</html>
