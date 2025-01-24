@@ -12,42 +12,72 @@ padding: 0;
 /* body */
 body{
     background-image: url(./bilder/image-133.jpg);
-    background: no-repeat;
+    background-repeat: no-repeat;
+    background-color: #F3F0DD;
+
 }
 .kontainer{
 width: 800px;
 margin: auto;
+height: 1000px;
+
 
 
 }
 .meny{
 display: flex;
 justify-content: space-between;
-padding: 10px;
+padding: 20px;
+align-items:center;
+gap: 10px;
+
+
+}
+.meny a{
 text-decoration: none;
 color: white;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
-.sida{
-border-radius: 10px;
-border-color: white;
+.meny img {
+    width: 75px;
 
 }
-.rutur{
+
+.sida {
+    background-color: #fff;
+border: 2px soild white;
+padding: 10px;
+
+height: 600px;
+}
+.sida h2 {
+    text-align: center;
+    padding: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+
+}
+.sida p{ 
+    font-size: 15px;
+    text-align: center;
+}
+.sida .rutor{
+    margin-top: 50px;
 display: grid;
 grid-template-columns: 1fr 1fr 1fr 1fr;
 gap: 10px;
 
 }
-.prudukter-1{
+.sida .rutor .prudukt {
 
 }
-.prudukter-2{
-
+.sida .rutor .prudukt img{
+width: 100%;
 }
-.prudukter-3{
-
-}
-.prudukter-4{
+.sida .rutor .prudukt p{
+ font-size: 15px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-weight: 100;
 
 }
