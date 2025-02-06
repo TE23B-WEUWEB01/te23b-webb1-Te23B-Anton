@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+
+/* Enkel CSS-reset */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+img {
+    width: 100%;
+}
+
+/* Sidan */
+body {
+    background-image: url(./bilder/tobias-schulz-3J8xcnCM1ak-unsplash.jpg);
+}
+.kontainer {
+    width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Bygga layouten */
+.kontainer {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas: 
+    "sidhuvud sidhuvud"
+    "artiklarna sidebar"
+    "sidfot sidfot";
+}
+header {
+    grid-area: sidhuvud;
+ 
+}
+main {
+    grid-area: artiklarna;
+    background-color: white;
+}
+aside {
+    grid-area: sidebar;
+    background-color: white;
+}
+footer {
+    grid-area: sidfot;
+    background-color: white;
+}
+
+/* Sidhuvud */
+header {
+    color: #FFF;
+    font-family: "Rubik Moonrocks", serif;
+}
+header h1 {
+    font-size: 80px;
+}
+header h2 {}
+
+/* Menyn */
+header nav {
+    background: rgb(0,36,20);
+    background: linear-gradient(0deg, rgba(0,36,20,1) 0%, rgba(39,171,26,1) 35%, rgba(0,255,20,1) 100%);;
+    padding:  20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+header nav a {
+    color: #FFF;
+    text-decoration: none;
+    padding: 15px;
+
+}
+header nav a.aktiv {
+    background: rgb(0,36,20);
+background: linear-gradient(0deg, rgba(0,36,20,1) 0%, rgba(39,171,26,1) 35%, rgba(0,255,20,1) 100%);
+} 
+header nav a:hover {
+    background: rgb(0,36,20);
+background: linear-gradient(0deg, rgba(0,36,20,1) 0%, rgba(39,171,26,1) 35%, rgba(0,255,20,1) 100%);
+}
+
+/* Sidans innehåll - artiklar, text mm */
+main {}
+main article {}
+main article h3 {}
+main article figure {
+    width: 50%;
+    margin: auto;
+    padding: 30px;
+    border: 1px solid gray;
+
+}
+main article figure img {}
+main article figure figcaption {}
+main article p {}
+
+/* Sidobar */
+aside {}
+aside h4 {}
+aside p {}
+
+/* Sidfoten */
+footer {}
+footer p {}
