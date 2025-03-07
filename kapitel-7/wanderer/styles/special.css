@@ -1,6 +1,7 @@
 /* regler bara för index.html */
 .wanderer {
     background: black;
+    color: white;
 
 }
 
@@ -29,3 +30,20 @@
 
 
 }
+
+.wanderer main{
+    /* css trick för vertikal centerering */
+    display: grid;
+    align-items: center;
+}
+
+.earth h1 {
+    color: #5d0b0d;
+}
+.earth header nav a {
+    color: #5d0b0d;
+}
+.earth header nav a:hover, .earth header nav a.active{
+    border-bottom: 3px solid #5d0b0d;
+}
+
