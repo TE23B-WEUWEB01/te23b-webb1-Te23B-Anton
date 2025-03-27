@@ -1,0 +1,21 @@
+.kontainer{
+    width: 700px;
+    margin: auto;
+    padding: 25px;
+    background: yellow;
+
+}
+
+h1 {
+    font-size: 50px;
+    color: darkcyan;
+    /* text-transform: uppercase;
+    text-decoration: dotted;
+    text-shadow: 5px 5px 5px green;
+    rotate: 180; */
+    /* text-decoration: underline black; */
+
+}
+p{
+    visibility: hidden;
+}
